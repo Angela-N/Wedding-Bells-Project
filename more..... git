@@ -1,0 +1,255 @@
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/clone_of_project (master)
+$ git clone https://github.com/Angela-N/ELearning_ARMS-MAK.git
+Cloning into 'ELearning_ARMS-MAK'...
+remote: Counting objects: 152, done.
+remote: Compressing objects: 100% (132/132), done.
+remote: Total 152 (delta 19), reused 152 (delta 19), pack-reused 0
+Receiving objects: 100% (152/152), 3.39 MiB | 8.00 KiB/s, done.
+Resolving deltas: 100% (19/19), done.
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/clone_of_project (master)
+$ ls
+ELearning_ARMS-MAK/  EngineeringMathematics2/
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/clone_of_project (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../$WinPEDriver$.exe
+        ../$WinPEDriver$/
+        ../.Spotlight-V100/
+        ../A Step-by-Step ASP.NET Tutorial for Beginners2.htm
+        ../A Step-by-Step ASP.NET Tutorial for Beginners2_files/
+        ../Black_Hat_Python_Python_Programmin.pdf
+        ../GOSPEL/
+        ../GitHub Desktop.lnk
+        ../HTML&CSS/
+        ../KMSELDI.exe
+        ../MaterialsDesign2/
+        ../Microsoft Visual Studio Ultimate 2013 with Update 2 ISO/
+        ../New folder/
+        ../Posts_Page/
+        ../Reference/
+        ../Screenshot (187).png
+        ../Screenshot (188).png
+        ../Screenshot (189).png
+        ../SetupS/
+        ../Start a new project, and install from NuGet. From
+        ../This PC - Shortcut.lnk
+        ../Up and Running with Bootstrap 3/
+        ../WebApplicationMovies.sln
+        ../WebApplicationMovies.v12.suo
+        ../WebApplicationMovies/
+        ../Wedding_Bells/
+        ../WindowsFormsApplication1/
+        ../angela_calc/
+        ./
+        ../clone_project/
+        ../courseUnits!.pdf
+        ../courseUnits.pdf
+        ../desktop.ini
+        ../desktop/
+        ../movies/
+        ../parallax-template (3).zip
+        ../pic2.jpg.jpg
+        ../pic4.jpg - Copy (2).jpg
+        ../pic4.jpg - Copy.jpg
+        ../rufus-2.14.exe
+        ../visual studio 2013/
+        "../\357\200\243UserControl x\357\200\242Class=\357\200\240MaterialDesig                                                                                                    nColors.WpfExam"
+        "../\357\200\243UserControl x\357\200\242Class=\357\200\240MaterialDesig                                                                                                    nColors.WpfExam 2"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/clone_of_project (master)
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+more git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/Wedding_Bells (master)
+$ git init
+Initialized empty Git repository in C:/Users/Angela Nayiga/Desktop/Wedding_Bells/.git/
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/Wedding_Bells (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        IMG_6113.PNG
+        IMG_6114.PNG
+        IMG_6115.PNG
+        IMG_6116.PNG
+        IMG_6117.PNG
+        IMG_6118.PNG
+        IMG_6119.PNG
+        IMG_6121.PNG
+        IMG_6122.PNG
+        IMG_6123.PNG
+        IMG_6124.PNG
+        IMG_6125.PNG
+        IMG_6126.PNG
+        IMG_6127.PNG
+        IMG_6128.PNG
+        IMG_6129.PNG
+        IMG_6130.PNG
+        IMG_6131.PNG
+        IMG_6132.PNG
+        LICENSE
+        background1.jpg
+        background2.jpg
+        background3.jpg
+        css.exe
+        css/
+        fonts.exe
+        fonts/
+        home.html
+        index.html
+        js.exe
+        js/
+        parallax-template.exe
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/Wedding_Bells (master)
+$ git add .
+warning: LF will be replaced by CRLF in LICENSE.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/materialize.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/materialize.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/style.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/init.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/materialize.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/materialize.min.js.
+The file will have its original line endings in your working directory.
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/Wedding_Bells (master)
+$ git commit "Changes"
+error: pathspec 'Changes' did not match any file(s) known to git.
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/Wedding_Bells (master)
+$ git commit "Initial commit"
+error: pathspec 'Initial commit' did not match any file(s) known to git.
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/Wedding_Bells (master)
+$ git commit -m "Changes"
+[master (root-commit) 050f896] Changes
+ 50 files changed, 19769 insertions(+)
+ create mode 100644 IMG_6113.PNG
+ create mode 100644 IMG_6114.PNG
+ create mode 100644 IMG_6115.PNG
+ create mode 100644 IMG_6116.PNG
+ create mode 100644 IMG_6117.PNG
+ create mode 100644 IMG_6118.PNG
+ create mode 100644 IMG_6119.PNG
+ create mode 100644 IMG_6121.PNG
+ create mode 100644 IMG_6122.PNG
+ create mode 100644 IMG_6123.PNG
+ create mode 100644 IMG_6124.PNG
+ create mode 100644 IMG_6125.PNG
+ create mode 100644 IMG_6126.PNG
+ create mode 100644 IMG_6127.PNG
+ create mode 100644 IMG_6128.PNG
+ create mode 100644 IMG_6129.PNG
+ create mode 100644 IMG_6130.PNG
+ create mode 100644 IMG_6131.PNG
+ create mode 100644 IMG_6132.PNG
+ create mode 100644 LICENSE
+ create mode 100644 background1.jpg
+ create mode 100644 background2.jpg
+ create mode 100644 background3.jpg
+ create mode 100644 css.exe
+ create mode 100644 css/css.exe
+ create mode 100644 css/materialize.css
+ create mode 100644 css/materialize.min.css
+ create mode 100644 css/style.css
+ create mode 100644 fonts.exe
+ create mode 100644 fonts/fonts.exe
+ create mode 100644 fonts/roboto.exe
+ create mode 100644 fonts/roboto/Roboto-Bold.woff
+ create mode 100644 fonts/roboto/Roboto-Bold.woff2
+ create mode 100644 fonts/roboto/Roboto-Light.woff
+ create mode 100644 fonts/roboto/Roboto-Light.woff2
+ create mode 100644 fonts/roboto/Roboto-Medium.woff
+ create mode 100644 fonts/roboto/Roboto-Medium.woff2
+ create mode 100644 fonts/roboto/Roboto-Regular.woff
+ create mode 100644 fonts/roboto/Roboto-Regular.woff2
+ create mode 100644 fonts/roboto/Roboto-Thin.woff
+ create mode 100644 fonts/roboto/Roboto-Thin.woff2
+ create mode 100644 fonts/roboto/roboto.exe
+ create mode 100644 home.html
+ create mode 100644 index.html
+ create mode 100644 js.exe
+ create mode 100644 js/init.js
+ create mode 100644 js/js.exe
+ create mode 100644 js/materialize.js
+ create mode 100644 js/materialize.min.js
+ create mode 100644 parallax-template.exe
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/Wedding_Bells (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/Wedding_Bells (master)
+$ git remote
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/Wedding_Bells (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Angela Nayiga@DESKTOP-DI5LSRR MINGW64 ~/Desktop/Wedding_Bells (master)
+$ git
